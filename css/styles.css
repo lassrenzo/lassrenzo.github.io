@@ -222,6 +222,10 @@ h1, h2 , h3, h4, h5, h6 {
     /*top right bottom left */
     margin: 0 0 10% 0;
   }
+ .services-icon , .services-text , .services-main , .p{
+    color: #494e5f;
+  }
+ 
 
   /*ABOUT SECTION */
   .about-img {
@@ -239,13 +243,14 @@ h1, h2 , h3, h4, h5, h6 {
   }
 
   /*FOOTER SECTION*/
-  .footer-section {
+   .footer-section {
    background-color: #3f3f44;
     color: #eee;
     text-align: center;     
   }
   .footer-icon {
     margin: 10px 10px;
+    color: #eee;
   }
     .footer-section :hover {
       text-decoration: none; 
