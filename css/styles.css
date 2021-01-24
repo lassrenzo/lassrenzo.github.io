@@ -79,10 +79,6 @@ h1, h2 , h3, h4, h5, h6 {
   /*top right bottom left */   
   padding: 0 0 4.5rem;
 }
-  .navbar-brand {  
-  font-size: 2.5rem;
-  font-weight: bold;
-}
   .nav-item {
     margin-left: 10px;
 }
@@ -92,9 +88,13 @@ h1, h2 , h3, h4, h5, h6 {
 .nav-item a:hover {
   border-bottom: 3px solid var(--third-color);
 }
-#main a.active {
+/*#main a.active {
   border-bottom: 3px solid var(--third-color);
+}*/
+.brand-icon {
+  width: 20%;
 }
+
 
 /* MAIN BTNS */
   .main-button {
@@ -170,7 +170,7 @@ h1, h2 , h3, h4, h5, h6 {
   margin-bottom: 5%;
 }
 .modals-icon {
-  width: 5%;
+  width: 7%;
   padding-top: 1.5%;
 }
 .card {
@@ -230,7 +230,6 @@ h1, h2 , h3, h4, h5, h6 {
     color: #494e5f;
   }
  
-
   /*ABOUT SECTION */
   .about-img {
     width: 190px;
@@ -247,7 +246,7 @@ h1, h2 , h3, h4, h5, h6 {
   }
 
   /*FOOTER SECTION*/
-   .footer-section {
+  .footer-section {
    background-color: #3f3f44;
     color: #eee;
     text-align: center;     
@@ -260,8 +259,8 @@ h1, h2 , h3, h4, h5, h6 {
       text-decoration: none; 
     }
   .footer-img {
-    width: 5%;
-    padding-bottom: 10px;
+    width: 10%;
+  
   }
 
   /*SCROLL TO THE TOP STYLING*/
@@ -317,5 +316,9 @@ h1, h2 , h3, h4, h5, h6 {
     }
     .section-title h1.active{
       text-decoration: none; 
+    }
+    .brand-icon{
+      width: 5rem !important;
+      height: 5rem !important;
     }
   }
