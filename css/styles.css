@@ -158,6 +158,18 @@ h1, h2 , h3, h4, h5, h6 {
   .text-sql-color {
       color: #006089; 
     }
+    .text-react-color{
+      color: #17a2b8;
+    }
+    .text-angular-color{
+      color: #dc3545;
+    }
+    .text-python-color{
+      color: #ffc107;
+    }
+    .text-java-color{
+      color: #006089;
+    }
   #skills .skills-bar {
         margin: 0 15%;
 }
