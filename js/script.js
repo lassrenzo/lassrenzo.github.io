@@ -28,3 +28,4 @@ function topFunction() {
 // UPDATED YEAR FOOTER
 const year = document.querySelector('#year');
 year.textContent = new Date().getFullYear();
+//
