@@ -266,22 +266,26 @@ h1, h2 , h3, h4, h5, h6 {
     text-shadow: 0px 2px 2px #17a2b8;
   }
 
+ /*CONTACT SECTION*/
+  .contact-icon {
+    margin: 10px;
+    
+  }
+  .contact-section :hover {
+      text-decoration: none; 
+} 
+.contact-me{
+  margin-top: 2%;
+}
+
   /*FOOTER SECTION*/
   .footer-section {
    background-color: #3f3f44;
     color: #eee;
     text-align: center;     
   }
-  .footer-icon {
-    margin: 10px 10px;
-    color: #eee;
-  }
-    .footer-section :hover {
-      text-decoration: none; 
-    }
   .footer-img {
     width: 10%;
-  
   }
 
   /*SCROLL TO THE TOP STYLING*/
@@ -299,9 +303,23 @@ h1, h2 , h3, h4, h5, h6 {
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
+  animation: arrow-up 0.5s ease-in-out infinite;
 }
-#btn:hover {
-  background-color: #888888;
+@keyframes arrow-up{
+  0%{
+    opacity: 1;
+  }
+  50%{
+      bottom: 25px;
+  }
+  75%{
+      bottom: 30px;
+  }
+  100%{
+      
+    opacity: 0;
+    bottom: 35px;
+  }
 }
   
 /*MOBILE RESPONSIVE*/
@@ -344,4 +362,9 @@ h1, h2 , h3, h4, h5, h6 {
       width: 5rem !important;
       height: 5rem !important;
     }
+    .contact-me{
+      margin-bottom: 5%;
+      margin-top: 0;
+    }
   }
+ 
